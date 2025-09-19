@@ -2,7 +2,7 @@
 
 ## Welcome, My page 👋
 
-<h1><font color="red">자기소개</font></h1>
+<h1>Introduction</h1>
 
 <table>
   <tr>
