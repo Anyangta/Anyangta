@@ -2,6 +2,9 @@
 
 ## Welcome, My page 👋
 
+![아이콘 설명](./images/my_icon.png)
+<img src="./images/kitty.png" width="30" height="30"> asdasdasd
+
 
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=dldnjsxkr852)](https://solved.ac/profile/dldnjsxkr852)
