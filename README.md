@@ -2,6 +2,8 @@
 
 ## Welcome, My page 👋
 
+<h1 style="color:red;">자기소개</h1>
+
 <table>
   <tr>
     <td><img src="./images/kitty.png" width="30" height="30"></td>
