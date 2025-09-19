@@ -2,8 +2,24 @@
 
 ## Welcome, My page 👋
 
-![아이콘 설명](./images/my_icon.png)
-<img src="./images/kitty.png" width="30" height="30"> asdasdasd
+<table>
+  <tr>
+    <td><img src="./images/kitty.png" width="30" height="30"></td>
+    <td>고양이를 좋아하는 주니어 개발자입니다.</td>
+  </tr>
+  <tr>
+    <td><img src="./images/coffee-cup.png" width="30" height="30"></td>
+    <td>매일 커피의 힘으로 코딩하고 있어요. ☕</td>
+  </tr>
+  <tr>
+    <td><img src="./images/smiling.png" width="30" height="30"></td>
+    <td>긍정적인 태도로 동료들과 협업하는 것을 즐깁니다.</td>
+  </tr>
+    <tr>
+    <td><img src="./images/ice-cream.png" width="30" height="30"></td>
+    <td>가끔 달콤한 아이스크림으로 스트레스를 풀어요!</td>
+  </tr>
+</table>
 
 
 
