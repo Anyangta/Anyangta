@@ -2,8 +2,6 @@
 
 ## Welcome, My page 👋
 
-<h1>Introduction</h1>
-
 <table>
   <tr>
     <td><img src="./images/kitty.png" width="30" height="30"></td>
@@ -24,10 +22,12 @@
   </tr>
 </table>
 
-
+<h1>Baekjun graph</h1>
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=dldnjsxkr852)](https://solved.ac/profile/dldnjsxkr852)
 ![mazandi profile](http://mazandi.herokuapp.com/api?handle=dldnjsxkr852&theme=warm)
+
+<h1>Github graph</h1>
 
 ![Anyangta's GitHub stats](https://github-readme-stats.vercel.app/api?username=Anyangta&show_icons=true&theme=transparent)
 
