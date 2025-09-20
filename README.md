@@ -73,7 +73,7 @@
     </tr>
     <tr>
       <td>LWT Lab Site</td>
-      <td>https://re8code.notion.site/Docs-Table-108d35d4aa4680bda4c5d19c8269498b</td>
+      <td>https://loquacious-cheesecake-c77de1.netlify.app/</td>
     </tr>
     <tr>
       <td>Web 1-01</td>
