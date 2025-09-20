@@ -67,8 +67,8 @@
 
 ## Web Site
   <div>
-    loquacious-cheesecake-c77de1.netlify.app
-    https://re8code.notion.site/Docs-Table-108d35d4aa4680bda4c5d19c8269498b
+    <p>https://loquacious-cheesecake-c77de1.netlify.app</p> 
+    <p>https://re8code.notion.site/Docs-Table-108d35d4aa4680bda4c5d19c8269498b</p>
   </div>
 
 
