@@ -66,11 +66,28 @@
 </div><br>
 
 ## Web Site
-  <div>
-    <p>https://loquacious-cheesecake-c77de1.netlify.app</p> 
-    <p>https://re8code.notion.site/Docs-Table-108d35d4aa4680bda4c5d19c8269498b</p>
-  </div>
-
-
+  <table>
+    <tr>
+      <td>Study table</td>
+      <td>https://re8code.notion.site/Docs-Table-108d35d4aa4680bda4c5d19c8269498b</td>
+    </tr>
+    <tr>
+      <td>LWT Lab Site</td>
+      <td>https://re8code.notion.site/Docs-Table-108d35d4aa4680bda4c5d19c8269498b</td>
+    </tr>
+    <tr>
+      <td>Web 1-01</td>
+      <td>https://github.com/Anyangta/web101.git</td>
+    </tr>
+    <tr>
+      <td>Web 1-02</td>
+      <td>
+          https://github.com/Anyangta/web102.git</td>
+    </tr>
+    <tr>
+      <td>Web 1-03</td>
+      <td>https://github.com/Anyangta/web103.git</td>
+    </tr>
+  </table>
 </div>
 
