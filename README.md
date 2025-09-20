@@ -63,14 +63,14 @@
       <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
       <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
     </div>
+</div><br>
 
-    ## Web Site
+## Web Site
     <div>
         loquacious-cheesecake-c77de1.netlify.app
         https://re8code.notion.site/Docs-Table-108d35d4aa4680bda4c5d19c8269498b
     </div>
 
-    
-</div><br>
+
 </div>
 
