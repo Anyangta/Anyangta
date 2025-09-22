@@ -83,7 +83,15 @@ def update_readme(markdown_content):
 
 if __name__ == "__main__":
     print("Starting Google Calendar README update script...")
+
     service = get_calendar_service()
+    print("✅ Google Calendar service created")
+
     events = get_upcoming_events(service, CALENDAR_ID)
+    print(f"📌 Events fetched: {events}")   # <-- 여기에 추가 (API 응답 확인)
+
     markdown_output = format_events_to_markdown(events)
+    print("📄 Markdown Output:\n", markdown_output)  # <-- 여기에 추가 (형식 확인)
+
     update_readme(markdown_output)
+    print("🚀 Finished updating README")
