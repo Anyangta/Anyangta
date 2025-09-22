@@ -1,12 +1,15 @@
-name: Update Google Calendar Events
+name: Update Google Calendar
 
-on:
-  workflow_dispatch: # 수동 실행 가능
+on: 
   schedule:
-    - cron: '0 0 * * *' # 매일 UTC 자정 (KST 오전 9시)에 실행
+    - cron: "0 * * * *"   # 매 시간마다 실행
+  workflow_dispatch:       # 수동 실행 가능
+  push:
+    paths:
+      - 'scripts/**'       # scripts 폴더 변경 시 실행
 
 jobs:
-  update-readme:
+  update-calendar:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -18,24 +21,15 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+        run: pip install -r requirements.txt
 
-      - name: Create service account key file
-        run: echo "${{ secrets.GCP_SA_KEY }}" > service-account-key.json
-        shell: bash
-
-      - name: Run Python script to update README
-        env:
-          GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
-          GOOGLE_APPLICATION_CREDENTIALS: service-account-key.json
+      - name: Run script
         run: python scripts/update_readme.py
 
-      - name: Commit and push changes
+      - name: Commit changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --local user.email "actions@github.com"
+          git config --local user.name "github-actions"
           git add README.md
-          git commit -m "docs: Update Google Calendar events" || echo "No changes to commit"
+          git commit -m "Update README with Google Calendar events" || echo "No changes to commit"
           git push
