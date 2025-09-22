@@ -2,6 +2,26 @@
 
 ## Welcome, My page 👋
 
+<table>
+  <tr>
+    <td><img src="./images/kitty.png" width="30" height="30"></td>
+    <td>I am currently a college student and a junior programmer.</td>
+  </tr>
+  <tr>
+    <td><img src="./images/coffee-cup.png" width="30" height="30"></td>
+    <td>
+        I'm studying with the goal of creating a cloud service called Pass.</td>
+  </tr>
+  <tr>
+    <td><img src="./images/smiling.png" width="30" height="30"></td>
+    <td>Although I am a junior now, I will show you my growing skills.</td>
+  </tr>
+    <tr>
+    <td><img src="./images/ice-cream.png" width="30" height="30"></td>
+    <td>Your interest and feedback are always welcome.</td>
+  </tr>
+</table>
+
 <div>
     <h3>✨ What to do today ✨</h3>
     <ul style="list-style-type: none; padding-left: 0;">
@@ -11,8 +31,6 @@
         <li style="color: #36454F;">☕ 백준 문제 하나 풀기</li>
     </ul>
 </div>
-
-## Welcome, My page 👋
 
 ## Daily Log 📝
 <div style="
@@ -41,25 +59,7 @@
 </div>
 
 
-<table>
-  <tr>
-    <td><img src="./images/kitty.png" width="30" height="30"></td>
-    <td>I am currently a college student and a junior programmer.</td>
-  </tr>
-  <tr>
-    <td><img src="./images/coffee-cup.png" width="30" height="30"></td>
-    <td>
-        I'm studying with the goal of creating a cloud service called Pass.</td>
-  </tr>
-  <tr>
-    <td><img src="./images/smiling.png" width="30" height="30"></td>
-    <td>Although I am a junior now, I will show you my growing skills.</td>
-  </tr>
-    <tr>
-    <td><img src="./images/ice-cream.png" width="30" height="30"></td>
-    <td>Your interest and feedback are always welcome.</td>
-  </tr>
-</table>
+
 
 <h1>Baekjun graph</h1>
 
