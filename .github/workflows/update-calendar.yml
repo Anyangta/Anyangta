@@ -40,5 +40,8 @@ jobs:
           git config --local user.name "github-actions"
           git add README.md
           git commit -m "Update README with Google Calendar events" || echo "No changes to commit"
-          # [수정 2] 푸시 명령어를 아래와 같이 간단하게 변경하세요.
+          
+          # [수정] 푸시하기 전에 원격 저장소의 변경사항을 가져옵니다.
+          git pull --rebase
+          
           git push
