@@ -26,7 +26,7 @@ def get_calendar_service():
 
 def get_upcoming_events(service, calendar_id):
     """특정 캘린더에서 다가오는 이벤트를 가져옵니다."""
-    now = datetime.datetime.utcnow().isoformat() + 'Z'  # UTC 현재 시간
+    now = datetime.datetime.now(datetime.UTC).isoformat()
     events_result = service.events().list(
         calendarId=calendar_id,
         timeMin=now,
