@@ -5,7 +5,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 # --- 설정 ---
-CALENDAR_ID = os.environ.get('GOOGLE_CALENDAR_ID')  # GitHub Secret에서 가져옴
+CALENDAR_ID = os.environ.get('GOOGLE_CALENDAR_ID', '').strip()  # <- strip() 추가
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
 
 README_PATH = "README.md"
