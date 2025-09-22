@@ -10,6 +10,9 @@
         <li style="margin-bottom: 8px; color: #36454F;">📚 졸작 만들기</li>
         <li style="color: #36454F;">☕ 백준 문제 하나 풀기</li>
     </ul>
+
+    url = f"https://api.notion.com/v1/databases/{os.getenv('db')}/query"
+
 </div>
 
 
