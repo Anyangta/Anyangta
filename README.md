@@ -35,7 +35,7 @@
 ## 🗓️ 다가오는 Google Calendar 일정 🗓️
 
 <!-- START_CALENDAR -->
-여기에 자동으로 일정이 업데이트됩니다. ✨
+현재 예정된 일정이 없습니다. 🎉
 <!-- END_CALENDAR -->
 
 ## Daily Log 📝
