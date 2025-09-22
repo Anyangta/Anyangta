@@ -25,7 +25,6 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 은은한 그림자 */
 ">
     <h3 style="text-align: center; color: #483D8B; margin-top: 0;">🗓️ 나의 활동 기록 🗓️</h3>
-
     <h4>2023년 10월 27일</h4>
     <ul style="list-style-type: none; padding-left: 0;">
         <li style="margin-bottom: 8px; color: #36454F;">✅ GitHub 프로필 README 업데이트 완료</li>
@@ -33,14 +32,13 @@
         <li style="margin-bottom: 8px; color: #36454F;">⏳ 졸작 아이디어 회의 및 자료 조사</li>
         <li style="color: #36454F;">✅ 백준 1234번 문제 해결</li>
     </ul>
-
     <h4>2023년 10월 26일</h4>
     <ul style="list-style-type: none; padding-left: 0;">
         <li style="margin-bottom: 8px; color: #36454F;">✅ 웹사이트 프로젝트 기획서 작성</li>
         <li style="margin-bottom: 8px; color: #36454F;">✅ 알고리즘 스터디 참여</li>
         <li style="color: #36454F;">⏳ 개인 프로젝트 코드 리팩토링</li>
     </ul>
-    </div>
+</div>
 
 
 <table>
