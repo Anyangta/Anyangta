@@ -32,31 +32,10 @@
     </ul>
 </div>
 
+## 🗓️ 다가오는 Google Calendar 일정 🗓️
+
 ## Daily Log 📝
-<div style="
-    background-color: #F8F8F8; /* 아주 연한 회색 배경 */
-    border: 4px solid #8B4513; /* 굵은 갈색 테두리 */
-    border-radius: 8px; /* 둥근 모서리 */
-    padding: 15px; /* 내부 여백 */
-    margin-top: 20px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 은은한 그림자 */
-">
-    <h3 style="text-align: center; color: #483D8B; margin-top: 0;">🗓️ 나의 활동 기록 🗓️</h3>
-    <h4>2023년 10월 27일</h4>
-    <ul style="list-style-type: none; padding-left: 0;">
-        <li style="margin-bottom: 8px; color: #36454F;">✅ GitHub 프로필 README 업데이트 완료</li>
-        <li style="margin-bottom: 8px; color: #36454F;">✅ 어트리뷰트, 프로퍼티, 객체 정의 학습</li>
-        <li style="margin-bottom: 8px; color: #36454F;">⏳ 졸작 아이디어 회의 및 자료 조사</li>
-        <li style="color: #36454F;">✅ 백준 1234번 문제 해결</li>
-    </ul>
-    <h4>2023년 10월 26일</h4>
-    <ul style="list-style-type: none; padding-left: 0;">
-        <li style="margin-bottom: 8px; color: #36454F;">✅ 웹사이트 프로젝트 기획서 작성</li>
-        <li style="margin-bottom: 8px; color: #36454F;">✅ 알고리즘 스터디 참여</li>
-        <li style="color: #36454F;">⏳ 개인 프로젝트 코드 리팩토링</li>
-    </ul>
-</div>
+...
 
 
 
