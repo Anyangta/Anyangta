@@ -9,8 +9,8 @@ SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
 SERVICE_ACCOUNT_FILE = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS') # GitHub Secret에서 생성된 파일 경로
 
 README_PATH = "README.md"
-START_DELIMITER = ""
-END_DELIMITER = ""
+START_DELIMITER = "<!-- START_CALENDAR -->"
+END_DELIMITER = "<!-- END_CALENDAR -->"
 # -------------
 
 def get_calendar_service():

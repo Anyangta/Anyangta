@@ -34,6 +34,10 @@
 
 ## 🗓️ 다가오는 Google Calendar 일정 🗓️
 
+<!-- START_CALENDAR -->
+여기에 자동으로 일정이 업데이트됩니다. ✨
+<!-- END_CALENDAR -->
+
 ## Daily Log 📝
 <div style="
     background-color: #F8F8F8; /* 아주 연한 회색 배경 */
@@ -46,6 +50,7 @@
 ">
     <h3 style="text-align: center; color: #483D8B; margin-top: 0;">🗓️ 나의 활동 기록 🗓️</h3>
 </div>
+
 
 
 
