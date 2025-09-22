@@ -25,6 +25,10 @@ jobs:
 
       - name: Run script
         run: python scripts/update_readme.py
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+          GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
+
 
       - name: Commit changes
         run: |

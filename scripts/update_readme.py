@@ -1,12 +1,12 @@
 import os
+import json
 import datetime
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 # --- 설정 ---
-CALENDAR_ID = os.environ.get('GOOGLE_CALENDAR_ID') # GitHub Secret에서 가져옴
+CALENDAR_ID = os.environ.get('GOOGLE_CALENDAR_ID')  # GitHub Secret에서 가져옴
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
-SERVICE_ACCOUNT_FILE = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS') # GitHub Secret에서 생성된 파일 경로
 
 README_PATH = "README.md"
 START_DELIMITER = "<!-- START_CALENDAR -->"
@@ -15,19 +15,22 @@ END_DELIMITER = "<!-- END_CALENDAR -->"
 
 def get_calendar_service():
     """Google Calendar API 서비스 객체를 반환합니다."""
-    creds = service_account.Credentials.from_service_account_file(
-        SERVICE_ACCOUNT_FILE, scopes=SCOPES
-    )
+    creds_json = os.environ.get("GOOGLE_CREDENTIALS")  # GitHub Secret에 JSON 내용 저장
+    if not creds_json:
+        raise ValueError("GOOGLE_CREDENTIALS 환경 변수가 없습니다. GitHub Secret 확인 필요")
+
+    creds_dict = json.loads(creds_json)
+    creds = service_account.Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
     service = build('calendar', 'v3', credentials=creds)
     return service
 
 def get_upcoming_events(service, calendar_id):
     """특정 캘린더에서 다가오는 이벤트를 가져옵니다."""
-    now = datetime.datetime.utcnow().isoformat() + 'Z' # UTC 현재 시간
+    now = datetime.datetime.utcnow().isoformat() + 'Z'  # UTC 현재 시간
     events_result = service.events().list(
         calendarId=calendar_id,
         timeMin=now,
-        maxResults=5, # 최대 5개의 이벤트만 가져옴
+        maxResults=5,  # 최대 5개의 이벤트만 가져옴
         singleEvents=True,
         orderBy='startTime'
     ).execute()
@@ -48,12 +51,10 @@ def format_events_to_markdown(events):
 
         # 날짜 형식 조정
         if 'dateTime' in event['start']:
-            # 시간 정보가 있는 경우
             start_dt = datetime.datetime.fromisoformat(start.replace('Z', '+00:00'))
             end_dt = datetime.datetime.fromisoformat(end.replace('Z', '+00:00'))
             formatted_time = f"{start_dt.strftime('%m/%d %H:%M')} ~ {end_dt.strftime('%H:%M')}"
         else:
-            # 종일 이벤트 (날짜만 있는 경우)
             start_dt = datetime.datetime.fromisoformat(start)
             formatted_time = start_dt.strftime('%Y/%m/%d (종일)')
 
@@ -88,10 +89,10 @@ if __name__ == "__main__":
     print("✅ Google Calendar service created")
 
     events = get_upcoming_events(service, CALENDAR_ID)
-    print(f"📌 Events fetched: {events}")   # <-- 여기에 추가 (API 응답 확인)
+    print(f"📌 Events fetched: {events}")  # API 응답 확인용 로그
 
     markdown_output = format_events_to_markdown(events)
-    print("📄 Markdown Output:\n", markdown_output)  # <-- 여기에 추가 (형식 확인)
+    print("📄 Markdown Output:\n", markdown_output)  # Markdown 확인용 로그
 
     update_readme(markdown_output)
     print("🚀 Finished updating README")
