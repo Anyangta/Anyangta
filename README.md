@@ -2,20 +2,12 @@
 
 ## Welcome, My page 👋
 
-<div style="
-    background-color: #F8F8F8; /* 아주 연한 회색 배경 */
-    border: 4px solid #8B4513; /* 굵은 갈색 테두리 */
-    border-radius: 8px; /* 둥근 모서리 */
-    padding: 15px; /* 내부 여백 */
-    margin-top: 20px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 은은한 그림자 */
-">
-    <h3 style="text-align: center; color: #483D8B; margin-top: 0;">✨ What to do today ✨</h3>
+<div>
+    <h3>✨ What to do today ✨</h3>
     <ul style="list-style-type: none; padding-left: 0;">
         <li style="margin-bottom: 8px; color: #36454F;">✅ GitHub 프로필 README 업데이트</li>
-        <li style="margin-bottom: 8px; color: #36454F;">📝 dom에 대해 공부하</li>
-        <li style="margin-bottom: 8px; color: #36454F;">📚 자료구조 스터디 진행</li>
+        <li style="margin-bottom: 8px; color: #36454F;">📝 어트리뷰트, 프로퍼티, 객체 정의</li>
+        <li style="margin-bottom: 8px; color: #36454F;">📚 졸작 만들기</li>
         <li style="color: #36454F;">☕ 백준 문제 하나 풀기</li>
     </ul>
 </div>
