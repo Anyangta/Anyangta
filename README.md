@@ -38,19 +38,6 @@
 현재 예정된 일정이 없습니다. 🎉
 <!-- END_CALENDAR -->
 
-## Daily Log 📝
-<div style="
-    background-color: #F8F8F8; /* 아주 연한 회색 배경 */
-    border: 4px solid #8B4513; /* 굵은 갈색 테두리 */
-    border-radius: 8px; /* 둥근 모서리 */
-    padding: 15px; /* 내부 여백 */
-    margin-top: 20px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 은은한 그림자 */
-">
-    <h3 style="text-align: center; color: #483D8B; margin-top: 0;">🗓️ 나의 활동 기록 🗓️</h3>
-</div>
-
 <h1>Baekjun graph</h1>
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=dldnjsxkr852)](https://solved.ac/profile/dldnjsxkr852)
