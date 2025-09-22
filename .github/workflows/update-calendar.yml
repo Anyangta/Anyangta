@@ -1,0 +1,41 @@
+name: Update Google Calendar Events
+
+on:
+  workflow_dispatch: # 수동 실행 가능
+  schedule:
+    - cron: '0 0 * * *' # 매일 UTC 자정 (KST 오전 9시)에 실행
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+      - name: Create service account key file
+        run: echo "${{ secrets.GCP_SA_KEY }}" > service-account-key.json
+        shell: bash
+
+      - name: Run Python script to update README
+        env:
+          GOOGLE_CALENDAR_ID: ${{ secrets.GOOGLE_CALENDAR_ID }}
+          GOOGLE_APPLICATION_CREDENTIALS: service-account-key.json
+        run: python scripts/update_readme.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "docs: Update Google Calendar events" || echo "No changes to commit"
+          git push
