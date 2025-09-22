@@ -24,6 +24,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+          cache: 'pip' # 캐시를 활성화하려면 이 줄을 추가하세요          
 
       - name: Install dependencies
         run: pip install -r requirements.txt
