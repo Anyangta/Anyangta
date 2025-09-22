@@ -83,7 +83,11 @@ def update_readme(markdown_content):
     print("README.md updated successfully!")
 
 if __name__ == "__main__":
+    # [수정] 이 디버그 코드를 추가하세요.
+    print(f"---DEBUG--- Using Calendar ID: '{CALENDAR_ID}'")
+
     print("Starting Google Calendar README update script...")
+    # ... (이하 코드는 그대로) ...
 
     service = get_calendar_service()
     print("✅ Google Calendar service created")
