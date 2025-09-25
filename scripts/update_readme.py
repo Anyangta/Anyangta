@@ -42,7 +42,7 @@ def update_readme(markdown_content):
 def generate_monthly_grid():
     """이번 달의 날짜가 담긴 2차원 리스트(주 단위)를 생성합니다."""
     # [수정] 주의 시작을 일요일로 설정합니다. (기본값: 월요일)
-    calendar.setfirstweekday(calendar.SUNDAY)
+    calendar.setfirstweekday(calendar.MONDAY)
     
     today = datetime.date.today()
     monthly_dates = calendar.monthcalendar(today.year, today.month)
