@@ -32,11 +32,14 @@ def update_readme(markdown_content):
     if start_index == -1 or end_index == -1:
         print(f"Error: Delimiters '{START_DELIMITER}' and/or '{END_DELIMITER}' not found in README.md")
         return
-    before_content = readme_content[:start_index + len(START_DELIMITER)]
-    after_content = readme_content[end_index:]
+    before_content = readme_content[:start_index]
+    after_content = readme_content[end_index + len(END_DELIMITER):]
+
     new_readme_content = f"{before_content}\n{markdown_content}\n{after_content}"
+
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(new_readme_content)
+
     print("README.md updated successfully!")
 
 def generate_monthly_grid():
