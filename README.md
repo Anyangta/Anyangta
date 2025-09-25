@@ -35,7 +35,7 @@
 ## 🗓️ 다가오는 Google Calendar 일정 🗓️
 
 <!-- START_CALENDAR -->
-현재 예정된 일정이 없습니다. 🎉
+- **[ㅁㅇㄴㅇㄴ](https://www.google.com/calendar/event?eid=MWZ2ZDN1c2thOGdvbWUwcDlrbzduaTk1M2wgZGxkbmpzeGtyODUyQG0)** (09/27 09:30 ~ 10:30)
 <!-- END_CALENDAR -->
 
 <h1>Baekjun graph</h1>
