@@ -1,3 +1,13 @@
+
+### 🗓️ 2025년 9월 활동 기록 🗓️
+
+| Sun | Mon | Tue | Wed | Thu | Fri | Sat |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| | **1**<br> | **2**<br> | **3**<br> | **4**<br> | **5**<br> | **6**<br> |
+| **7**<br> | **8**<br> | **9**<br> | **10**<br> | **11**<br> | **12**<br> | **13**<br> |
+| **14**<br> | **15**<br> | **16**<br> | **17**<br> | **18**<br> | **19**<br> | **20**<br> |
+| **21**<br> | **22**<br> | **23**<br> | **24**<br> | **25**<br>- `데이터베이스공부하기`<br>- `자연어공부하기` | **26**<br> | **27**<br>- `ai공부하기`<br>- `자연어공부하기`<br>- `영화보러가기` |
+| **28**<br> | **29**<br> | **30**<br> | | | | |
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=30&duration=2000&pause=1000&color=F7F7F7&background=000000&multiline=true&width=500&height=100&lines=Welcome+to+my+webpage;Thank+you+for+your+interest)](https://git.io/typing-svg)
 
 ## Welcome, My page 👋
