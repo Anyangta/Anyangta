@@ -9,8 +9,8 @@ from googleapiclient.discovery import build
 CALENDAR_ID = os.environ.get('GOOGLE_CALENDAR_ID', '').strip()
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
 README_PATH = "README.md"
-START_DELIMITER = ""
-END_DELIMITER = ""
+START_DELIMITER = "aaaa"
+END_DELIMITER = "bbbb"
 # -------------
 
 def get_calendar_service():
@@ -41,8 +41,8 @@ def update_readme(markdown_content):
 
 def generate_monthly_grid():
     """이번 달의 날짜가 담긴 2차원 리스트(주 단위)를 생성합니다."""
-    # [수정] 주의 시작을 일요일로 설정합니다. (기본값: 월요일)
-    calendar.setfirstweekday(calendar.MONDAY)
+    # [수정] 표가 일요일부터 시작하므로, 데이터도 일요일부터 만들도록 설정합니다.
+    calendar.setfirstweekday(calendar.SUNDAY)
     
     today = datetime.date.today()
     monthly_dates = calendar.monthcalendar(today.year, today.month)
