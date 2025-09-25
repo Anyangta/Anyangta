@@ -52,12 +52,6 @@
     </ul>
 </div>
 
-## 🗓️ 다가오는 Google Calendar 일정 🗓️
-
-<!-- START_CALENDAR -->
-- **[ㅁㅇㄴㅇㄴ](https://www.google.com/calendar/event?eid=MWZ2ZDN1c2thOGdvbWUwcDlrbzduaTk1M2wgZGxkbmpzeGtyODUyQG0)** (09/27 09:30 ~ 10:30)
-<!-- END_CALENDAR -->
-
 <h1>Baekjun graph</h1>
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=dldnjsxkr852)](https://solved.ac/profile/dldnjsxkr852)
