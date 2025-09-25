@@ -26,7 +26,7 @@
     <h3>✨ What to do today ✨</h3>
     <ul style="list-style-type: none; padding-left: 0;">
         <li style="margin-bottom: 8px; color: #36454F;">✅ GitHub 프로필 README 업데이트</li>
-        <li style="margin-bottom: 8px; color: #36454F;">📝 데이터베이스 공부하기</li>
+        <li style="margin-bottom: 8px; color: #36454F;">📝 객체, 인스턴스, 클래스 정의</li>
         <li style="margin-bottom: 8px; color: #36454F;">📚 분산 시스템 공부하기</li>
         <li style="color: #36454F;">☕ 백준 문제 하나 풀기</li>
     </ul>
