@@ -43,6 +43,7 @@
 | **29**<br> | **30**<br> | | | | | |
 <br>
 
+
 <h1>Baekjun graph</h1>
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=dldnjsxkr852)](https://solved.ac/profile/dldnjsxkr852)
