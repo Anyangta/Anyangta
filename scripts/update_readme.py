@@ -82,7 +82,7 @@ def create_markdown_calendar(monthly_grid, events, year, month):
         if day_num not in events_by_day:
             events_by_day[day_num] = []
         summary = event.get('summary', '제목 없음')
-        events_by_day[day_num].append(f"- `{summary}`")
+        events_by_day[day_num].append(f"<small>- `{summary}`</small>")
 
     markdown = [f"### 🗓️ {year}년 {month}월 활동 기록 🗓️\n"]
     markdown.append("| Sun | Mon | Tue | Wed | Thu | Fri | Sat |")
