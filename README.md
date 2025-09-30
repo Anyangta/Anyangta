@@ -25,23 +25,15 @@
     <h3>✨ What to do today ✨</h3>
     <ul style="list-style-type: none; padding-left: 0;">
         <li style="margin-bottom: 8px; color: #36454F;">✅ GitHub 프로필 README 업데이트</li>
-        <li style="margin-bottom: 8px; color: #36454F;">📝 객체, 인스턴스, 클래스 정의</li>
-        <li style="margin-bottom: 8px; color: #36454F;">📚 그래프데이터베이스 공부</li>
+        <li style="margin-bottom: 8px; color: #36454F;">📝 면접 준비하기</li>
+        <li style="margin-bottom: 8px; color: #36454F;">📚 그래프데이터베이스 공부 </li>
         <li style="color: #36454F;">☕ 백준 문제 하나 풀기</li>
     </ul>
 </div>
 
+aaaa
 
-### 🗓️ 2025년 9월 활동 기록 🗓️
-
-| Sun | Mon | Tue | Wed | Thu | Fri | Sat |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| | **1**<br> | **2**<br> | **3**<br> | **4**<br> | **5**<br> | **6**<br> |
-| **7**<br> | **8**<br> | **9**<br> | **10**<br> | **11**<br> | **12**<br> | **13**<br> |
-| **14**<br> | **15**<br> | **16**<br> | **17**<br> | **18**<br> | **19**<br> | **20**<br> |
-| **21**<br><sub>- ai</sub><br><sub>- 객체</sub><br><sub>- 분산시스템</sub> | **22**<br><sub>- github 프로필</sub><br><sub>- 데이터베이스</sub> | **23**<br><sub>- 데이터베이스 </sub><br><sub>- 알고리즘 </sub><br><sub>- 컨택 메일 보내기</sub> | **24**<br><sub>- 객체 </sub><br><sub>- git 홈페이지</sub> | **25**<br><sub>- 데이터베이스</sub><br><sub>- 자연어</sub> | **26**<br><sub>- ai공부</sub><br><sub>- 자료구조 </sub><br><sub>- 자연어</sub> | **27**<br><sub>- 영화</sub> |
-| **28**<br><sub>- 글씨기연습</sub><br><sub>- ai공부</sub><br><sub>- 객체지향</sub> | **29**<br> | **30**<br> | | | | |
-
+bbbb
 
 
 <h1>Baekjun graph</h1>
