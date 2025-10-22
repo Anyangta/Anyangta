@@ -25,24 +25,16 @@
     <h3>✨ What to do today ✨</h3>
     <ul style="list-style-type: none; padding-left: 0;">
         <li style="margin-bottom: 8px; color: #36454F;">✅ GitHub 프로필 README 업데이트</li>
-        <li style="margin-bottom: 8px; color: #36454F;">📝 데이터 베이스 공부</li>
+        <li style="margin-bottom: 8px; color: #36454F;">📝 파이썬 공부</li>
         <li style="margin-bottom: 8px; color: #36454F;">📚 web 공부</li>
-        <li style="color: #36454F;">☕ 백준 문제 하나 풀기</li>
+        <li style="color: #36454F;">☕ 졸업 작품 보고서 작성</li>
     </ul>
 </div>
 
 
+aaaa
 
-### 🗓️ 2025년 10월 활동 기록 🗓️
-
-| Sun | Mon | Tue | Wed | Thu | Fri | Sat |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| | | | **1**<br><sub>- DB 공부</sub><br><sub>- 알고리즘 공부</sub><br><sub>- 단국대 컨텍 면담</sub><br><sub>- 객체 정의 완료</sub> | **2**<br><sub>- 깃 홈페이지 구성</sub><br><sub>- python 공부</sub><br><sub>- DB 공부</sub> | **3**<br><sub>- 도커 공부</sub><br><sub>- 데이터베이스 공부</sub><br><sub>- 깃홈페이지구성</sub> | **4**<br><sub>- 데이터베이스 공부</sub><br><sub>- 백준 문제 풀기</sub><br><sub>- 깃 홈페이지 구성</sub> |
-| **5**<br><sub>- 깃홈페이지 구성</sub><br><sub>- 백준 풀기</sub> | **6**<br><sub>- 즐거운 추석 보내기~</sub> | **7**<br><sub>- git 프로필 꾸미기</sub> | **8**<br><sub>- 자격증 공부</sub><br><sub>- web 공부</sub> | **9**<br><sub>- oracle 공부</sub><br><sub>- git 홈페이지 구성</sub> | **10**<br><sub>- 데이터 베이스 공부</sub><br><sub>- git 홈페이지</sub> | **11**<br><sub>- 자연어 처리</sub><br><sub>- 데이터 베이스 공부</sub> |
-| **12**<br><sub>- ai 공부</sub><br><sub>- 백준 풀기</sub> | **13**<br><sub>- git 홈페이지 구성</sub><br><sub>- web 공부</sub><br><sub>- ai 공부</sub> | **14**<br><sub>- 졸업 작품 준비</sub><br><sub>- web 공부</sub> | **15**<br><sub>- 세미나 참여</sub><br><sub>- db 서버 공부</sub> | **16**<br><sub>- 자연어 공부</sub><br><sub>- 졸업 작품 준비</sub><br><sub>- 백준 풀기</sub> | **17**<br><sub>- 데이터  베이스 공부</sub> | **18**<br><sub>- web 공부</sub><br><sub>- 백준 풀기</sub> |
-| **19**<br><sub>- 연구 주제 서치</sub> | **20**<br><sub>- web 공부</sub><br><sub>- 데이터 베이스 공부</sub> | **21**<br> | **22**<br> | **23**<br> | **24**<br> | **25**<br> |
-| **26**<br> | **27**<br> | **28**<br> | **29**<br> | **30**<br> | **31**<br> | |
-
+bbbb
 
 
 <h1>Baekjun graph</h1>
