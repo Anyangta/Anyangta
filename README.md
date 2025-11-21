@@ -30,8 +30,18 @@
         <li style="color: #36454F;">☕ 졸업 작품 보고서 작성</li>
     </ul>
 </div>
-aaaa
-bbbb
+
+### 🗓️ 2025년 11월 활동 기록 🗓️
+
+| Sun | Mon | Tue | Wed | Thu | Fri | Sat |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| | | | | | | **1**<br><sub>- 영화 보기</sub><br><sub>- web 공부</sub> |
+| **2**<br><sub>- 설계 실습</sub><br><sub>- web 공부</sub> | **3**<br><sub>- web 공부</sub><br><sub>- 데이터 베이스 공부</sub> | **4**<br><sub>- 졸업작품 만들기</sub> | **5**<br><sub>- 세미나 준비</sub> | **6**<br><sub>- web 공부</sub><br><sub>- 알바 면접</sub> | **7**<br><sub>- 데이터베이스 공부</sub><br><sub>- 연구분야 탐색</sub> | **8**<br><sub>- AI 공부</sub><br><sub>- 자연어 처리</sub> |
+| **9**<br><sub>- 졸업 작품</sub> | **10**<br><sub>- 졸업 작품</sub> | **11**<br><sub>- 졸업 작품</sub> | **12**<br><sub>- 졸업 작품</sub> | **13**<br><sub>- 졸업 작품</sub> | **14**<br><sub>- web 공부</sub><br><sub>- yolo 보고서</sub><br><sub>- 졸업 작품</sub> | **15**<br><sub>- 졸업 작품 준비</sub><br><sub>- web 공부</sub> |
+| **16**<br><sub>- 자연어 처리 공부</sub><br><sub>- 졸업 작품 준비</sub> | **17**<br><sub>- 캡스톤 경진 대회 준비</sub> | **18**<br><sub>- 캡스톤 경진 대회 출전</sub> | **19**<br><sub>- 캡스톤 경진 대회 출전</sub> | **20**<br><sub>- 캡스톤 경진 대회 시상식</sub> | **21**<br> | **22**<br> |
+| **23**<br> | **24**<br> | **25**<br> | **26**<br> | **27**<br> | **28**<br> | **29**<br> |
+| **30**<br> | | | | | | |
+
 
 <h1>Baekjun graph</h1>
 
