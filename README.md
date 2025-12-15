@@ -30,18 +30,9 @@
         <li style="color: #36454F;">☕ 졸업 작품 보고서 작성</li>
     </ul>
 </div>
+aaaa
 
-
-### 🗓️ 2025년 12월 활동 기록 🗓️
-
-| Sun | Mon | Tue | Wed | Thu | Fri | Sat |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| | **1**<br><sub>- 논문 쓰기</sub> | **2**<br><sub>- 옵스포드 오레오 공부</sub> | **3**<br><sub>- 서버 구축하기</sub> | **4**<br><sub>- 외부ip설정</sub> | **5**<br><sub>- web 공부</sub> | **6**<br><sub>- 자연어 처리 공부</sub> |
-| **7**<br><sub>- 데이터 베이스 공부</sub> | **8**<br><sub>- 논문 쓰기</sub> | **9**<br><sub>- 단국대 시험 감독</sub> | **10**<br><sub>- 기말고사 준비</sub> | **11**<br><sub>- 학교 기말고사 종강</sub> | **12**<br> | **13**<br> |
-| **14**<br> | **15**<br> | **16**<br> | **17**<br> | **18**<br> | **19**<br> | **20**<br> |
-| **21**<br> | **22**<br> | **23**<br> | **24**<br> | **25**<br> | **26**<br> | **27**<br> |
-| **28**<br> | **29**<br> | **30**<br> | **31**<br> | | | |
-
+bbbb
 <h1>Baekjun graph</h1>
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=dldnjsxkr852)](https://solved.ac/profile/dldnjsxkr852)
