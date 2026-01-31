@@ -30,10 +30,9 @@
         <li style="color: #36454F;">☕ 졸업 작품 보고서 작성</li>
     </ul>
 </div>
-
 aaaa
 
-bbb
+bbbb
 
 <h1>Baekjun graph</h1>
 
