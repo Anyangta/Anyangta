@@ -20,16 +20,9 @@
   </tr>
 </table>
 
+aaaa
 
-<div>
-    <h3>✨ What to do today ✨</h3>
-    <ul style="list-style-type: none; padding-left: 0;">
-        <li style="margin-bottom: 8px; color: #36454F;">✅ GitHub 프로필 README 업데이트</li>
-        <li style="margin-bottom: 8px; color: #36454F;">📝 파이썬 공부</li>
-        <li style="margin-bottom: 8px; color: #36454F;">📚 web 공부</li>
-        <li style="color: #36454F;">☕ 졸업 작품 보고서 작성</li>
-    </ul>
-</div>
+bbbb
 
 
 ### 🗓️ 2026년 2월 활동 기록 🗓️
