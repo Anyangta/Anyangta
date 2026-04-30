@@ -19,17 +19,9 @@
     <td>Your interest and feedback are always welcome.</td>
   </tr>
 </table>
+aaaa
 
-### 🗓️ 2026년 4월 활동 기록 🗓️
-
-| Sun | Mon | Tue | Wed | Thu | Fri | Sat |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| | | | **1**<br> | **2**<br> | **3**<br> | **4**<br> |
-| **5**<br> | **6**<br> | **7**<br> | **8**<br> | **9**<br> | **10**<br> | **11**<br> |
-| **12**<br> | **13**<br><sub>- [예약] 이원탁 - (나연묵 교수님 랩미팅)</sub> | **14**<br> | **15**<br> | **16**<br> | **17**<br> | **18**<br> |
-| **19**<br> | **20**<br> | **21**<br> | **22**<br> | **23**<br> | **24**<br> | **25**<br> |
-| **26**<br> | **27**<br> | **28**<br> | **29**<br><sub>- [예약] 이원탁 - DBlab 팀 미팅</sub> | **30**<br> | | |
-
+bbbb
 <h1>Baekjun graph</h1>
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=dldnjsxkr852)](https://solved.ac/profile/dldnjsxkr852)
