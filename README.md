@@ -47,8 +47,6 @@
 
 ![Anyangta's profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anyangta&theme=transparent)
 
-![Anyangta's contribution chart](https://ghchart.rshah.org/Anyangta)
-
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
 ----
