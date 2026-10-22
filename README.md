@@ -45,7 +45,7 @@
 ![Anyangta's GitHub stats](https://github-readme-stats.vercel.app/api?username=Anyangta&show_icons=true&theme=transparent)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anyangta)
 
-**1,845 contributions in the last year**
+![Anyangta's contribution chart](https://ghchart.rshah.org/Anyangta)
 
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
