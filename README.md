@@ -45,6 +45,8 @@
 ![Anyangta's GitHub stats](https://github-readme-stats.vercel.app/api?username=Anyangta&show_icons=true&theme=transparent)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anyangta)
 
+![Anyangta's profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anyangta&theme=transparent)
+
 ![Anyangta's contribution chart](https://ghchart.rshah.org/Anyangta)
 
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
