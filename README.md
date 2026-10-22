@@ -24,7 +24,7 @@
   - 🗄️ Database: MySQL, Firebase  
   - 🔧 Collaboration & Etc.: Git, GitHub, GitHub Actions, Notion
 </details>
-
+----
 ### 💪 Skills
 
 ![Java](https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white)
@@ -48,7 +48,7 @@
 
 ![Anyangta's profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anyangta&theme=transparent)
 
-![](./profile-3d-contrib/profile-night-rainbow.svg)
+![Anyangta's 3D contribution graph](./profile-3d-contrib/profile-night-rainbow.svg)
 
 ----
 ### 🌐 Web Site
