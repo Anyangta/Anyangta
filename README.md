@@ -45,6 +45,8 @@
 ![Anyangta's GitHub stats](https://github-readme-stats.vercel.app/api?username=Anyangta&show_icons=true&theme=transparent)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anyangta)
 
+![](./profile-3d-contrib/profile-night-rainbow.svg)
+
 ----
 ### 🌐 Web Site
 
@@ -55,6 +57,3 @@
 | Web 1-01 | https://github.com/Anyangta/web101 |
 | Web 1-02 | https://github.com/Anyangta/web102 |
 | Web 1-03 | https://github.com/Anyangta/web103 |
-
-----
-![](./profile-3d-contrib/profile-night-rainbow.svg)
