@@ -1,0 +1,32 @@
+name: GitHub-Profile-3D-Contrib
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # 매일 1회 실행 (UTC 18:00 = KST 03:00)
+  workflow_dispatch:       # 수동 실행 가능
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "dldnjsxkr852@naver.com"
+          git config --local user.name "Anyangta"
+          git add -A profile-3d-contrib
+          git commit -m "Update 3D contribution graph" || echo "No changes to commit"
+          git pull --rebase
+          git push

@@ -9,8 +9,8 @@ from googleapiclient.discovery import build
 CALENDAR_ID = os.environ.get('GOOGLE_CALENDAR_ID', '').strip()
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
 README_PATH = "README.md"
-START_DELIMITER = "aaaa"
-END_DELIMITER = "bbbb"
+START_DELIMITER = "<!-- CALENDAR:START -->"
+END_DELIMITER = "<!-- CALENDAR:END -->"
 # -------------
 
 def get_calendar_service():
@@ -35,7 +35,12 @@ def update_readme(markdown_content):
     before_content = readme_content[:start_index]
     after_content = readme_content[end_index + len(END_DELIMITER):]
 
-    new_readme_content = f"{before_content}\n{markdown_content}\n{after_content}"
+    # [수정] 구분자도 다시 써 줘야 다음 실행에서 섹션을 찾을 수 있습니다.
+    new_readme_content = (
+        f"{before_content}{START_DELIMITER}\n"
+        f"{markdown_content}\n"
+        f"{END_DELIMITER}{after_content}"
+    )
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(new_readme_content)
