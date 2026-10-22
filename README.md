@@ -10,10 +10,11 @@
   <br/>
 
   <strong>Highlights</strong>  
-  - ⭐ Studying toward <em>Pass</em>, a cloud service of my own — from server and database design to deployment.  
-  - ⭐ Automated this profile with GitHub Actions — Python scripts and a daily 3D contribution graph build.  
-  - ⭐ Built and deployed the <em>LWT Lab</em> website, and kept a web practice series (<em>web101 · web102 · web103</em>) as a public learning record.  
-  - ⭐ Solving algorithm problems on Baekjoon / solved.ac to keep my fundamentals sharp.
+  - ⭐ Studying cloud computing — <em>IaaS</em>, <em>PaaS</em> and <em>SaaS</em> — aiming to own the full path from server and database design through deployment.  
+  - ⭐ Working toward automating my own day-to-day work with AI.  
+  - ⭐ In graduate school, focused on research, papers and academic study.  
+  - ⭐ Preparing to start my own business as a solo developer.  
+  - ⭐ Still plenty to learn, but improving step by step — I post my studies and business progress every day on LinkedIn and my GitHub portfolio site.
 
   <br/>
 
