@@ -48,7 +48,8 @@
 
 ![Anyangta's profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anyangta&theme=transparent)
 
-![Anyangta's commit hours](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anyangta&theme=transparent&utcOffset=9)
+<!-- COMMIT_HOURS:START -->
+<!-- COMMIT_HOURS:END -->
 
 ![Anyangta's 3D contribution graph](./profile-3d-contrib/profile-night-rainbow.svg)
 

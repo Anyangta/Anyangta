@@ -25,11 +25,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Update commit hours in README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOGIN: ${{ github.repository_owner }}
+        run: python3 scripts/commit_hours.py || echo "::warning::commit hours 갱신 실패, README 유지"
+
       - name: Commit changes
         run: |
           git config --local user.email "dldnjsxkr852@naver.com"
           git config --local user.name "Anyangta"
-          git add -A profile-3d-contrib
-          git commit -m "Update 3D contribution graph" || echo "No changes to commit"
+          git add -A profile-3d-contrib README.md
+          git commit -m "Update 3D graph and commit hours" || echo "No changes to commit"
           git pull --rebase
           git push
