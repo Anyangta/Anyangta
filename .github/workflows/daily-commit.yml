@@ -1,0 +1,38 @@
+name: Daily Commits
+
+on:
+  schedule:
+    - cron: "0 15 * * *"   # 매일 KST 00:00 (UTC 15:00)
+  workflow_dispatch:       # 수동 실행 가능
+  push:
+    paths:
+      - '.github/workflows/daily-commit.yml'   # 이 워크플로우 수정 시 실행 (동작 확인용)
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create random commits
+        env:
+          TZ: Asia/Seoul   # 커밋 날짜를 한국 시간 기준으로 기록
+        run: |
+          git config --local user.email "dldnjsxkr852@naver.com"
+          git config --local user.name "Anyangta"
+
+          COUNT=$((RANDOM % 6 + 1))
+          echo "오늘 생성할 커밋 수: $COUNT"
+          echo "커밋 날짜(KST): $(date '+%Y-%m-%d %H:%M:%S %z')"
+
+          for i in $(seq 1 "$COUNT"); do
+            git commit --allow-empty -m "chore: daily commit ($i/$COUNT)"
+          done
+
+          git pull --rebase
+          git push
