@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "0 15 * * *"   # 매일 KST 00:00 (UTC 15:00)
   workflow_dispatch:       # 수동 실행 가능
-  push:
-    paths:
-      - '.github/workflows/daily-commit.yml'   # 이 워크플로우 수정 시 실행 (동작 확인용)
 
 jobs:
   commit:
