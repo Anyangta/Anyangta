@@ -43,10 +43,12 @@
 ----
 ### 📊 GitHub
 
-![Anyangta's GitHub stats](https://github-readme-stats.vercel.app/api?username=Anyangta&show_icons=true&theme=transparent)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anyangta)
+![Anyangta's GitHub stats](https://github-readme-stats.vercel.app/api?username=Anyangta&show_icons=true&theme=transparent&cache_seconds=21600)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anyangta&cache_seconds=21600)
 
 ![Anyangta's profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anyangta&theme=transparent)
+
+![Anyangta's commit hours](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Anyangta&theme=transparent&utcOffset=9)
 
 ![Anyangta's 3D contribution graph](./profile-3d-contrib/profile-night-rainbow.svg)
 
