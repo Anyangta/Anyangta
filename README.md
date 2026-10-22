@@ -44,7 +44,6 @@
 
 ![Anyangta's GitHub stats](https://github-readme-stats.vercel.app/api?username=Anyangta&show_icons=true&theme=transparent)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anyangta)
-[![Anyangta's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Anyangta&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ----
 ### 🌐 Web Site
