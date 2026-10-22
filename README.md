@@ -49,6 +49,14 @@
 ![Anyangta's profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Anyangta&theme=transparent)
 
 <!-- COMMIT_HOURS:START -->
+**I'm a daytime 🌆**
+
+```text
+🌞 Morning     58 commits   ████░░░░░░░░░░░░░░░░░░░░░    16.2%
+🌆 Daytime    152 commits   ███████████░░░░░░░░░░░░░░    42.3%
+🌃 Evening    116 commits   ████████░░░░░░░░░░░░░░░░░    32.3%
+🌙 Night       33 commits   ██░░░░░░░░░░░░░░░░░░░░░░░     9.2%
+```
 <!-- COMMIT_HOURS:END -->
 
 ![Anyangta's 3D contribution graph](./profile-3d-contrib/profile-night-rainbow.svg)
