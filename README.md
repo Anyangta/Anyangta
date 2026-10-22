@@ -1,25 +1,6 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=30&duration=2000&pause=1000&color=F7F7F7&background=000000&multiline=true&width=500&height=100&lines=Welcome+to+my+webpage;Thank+you+for+your+interest)](https://git.io/typing-svg)
-
 ### <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Nice ways to reach me
 <a href="https://re8code.notion.site/Docs-Table-108d35d4aa4680bda4c5d19c8269498b" target="_blank"><img src="https://img.shields.io/badge/Study Table-000000?style=flat-square&logo=Notion&logoColor=white"/></a>
 <a href="mailto:dldnjsxkr852@naver.com" target="_blank"><img src="https://img.shields.io/badge/dldnjsxkr852@naver.com-03C75A?style=flat-square&logo=Naver&logoColor=white"/></a>
-
-----
-
-<table>
-  <tr>
-    <td><img src="./images/coffee-cup.png" width="30" height="30"></td>
-    <td>I'm studying with the goal of creating a cloud service called <strong>Pass</strong>.</td>
-  </tr>
-  <tr>
-    <td><img src="./images/smiling.png" width="30" height="30"></td>
-    <td>Although I am a junior now, I will show you my growing skills.</td>
-  </tr>
-  <tr>
-    <td><img src="./images/ice-cream.png" width="30" height="30"></td>
-    <td>Your interest and feedback are always welcome.</td>
-  </tr>
-</table>
 
 ----
 ### Personal stats:
