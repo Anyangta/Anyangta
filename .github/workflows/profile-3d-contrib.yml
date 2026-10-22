@@ -25,11 +25,32 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Update contribution count in README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          COUNT=$(gh api graphql -f owner="$OWNER" -f query='
+            query($owner: String!) {
+              user(login: $owner) {
+                contributionsCollection {
+                  contributionCalendar { totalContributions }
+                }
+              }
+            }' --jq '.data.user.contributionsCollection.contributionCalendar.totalContributions') || true
+          if ! echo "$COUNT" | grep -qE '^[0-9]+$'; then
+            echo "::warning::Could not read contribution count; leaving README unchanged"
+            exit 0
+          fi
+          FORMATTED=$(echo "$COUNT" | sed -e :a -e 's/\B[0-9]\{3\}\>/,&/;ta')
+          echo "Contributions in the last year: $FORMATTED"
+          sed -i "s|^\*\*[0-9,]* contributions in the last year\*\*$|**${FORMATTED} contributions in the last year**|" README.md
+
       - name: Commit changes
         run: |
           git config --local user.email "dldnjsxkr852@naver.com"
           git config --local user.name "Anyangta"
-          git add -A profile-3d-contrib
-          git commit -m "Update 3D contribution graph" || echo "No changes to commit"
+          git add -A profile-3d-contrib README.md
+          git commit -m "Update 3D contribution graph and contribution count" || echo "No changes to commit"
           git pull --rebase
           git push
