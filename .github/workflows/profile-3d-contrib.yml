@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 18 * * *"   # 매일 1회 실행 (UTC 18:00 = KST 03:00)
   workflow_dispatch:       # 수동 실행 가능
+  push:
+    paths:
+      - '.github/workflows/profile-3d-contrib.yml'   # 이 워크플로우 수정 시 실행
 
 jobs:
   build:
